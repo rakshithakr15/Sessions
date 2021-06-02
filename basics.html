@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>Hello!</title>
+ </head>
+ <body>
+ <h1>Hello World!</h1>
+ <p>This is a simple paragraph.</p>
+
+ <!-- Defining a heading: -->
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<!-- Example document (extra intendation to illustrate hierarchy): -->
+<h1>Main title</h1>
+<p>Introduction</p>
+ <h2>Reasons</h2>
+ <h3>Reason 1</h3>
+ <p>Paragraph</p>
+ <h3>Reason 2</h3>
+ <p>Paragraph</p>
+ <h2>In conclusion</h2>
+ <p>Paragraph</p>
+
+ <p>This    is a    paragraph.</p>
+ <pre>This is    another    paragraph.</pre>
+
+
+ <p>Here is some content from an article that contains the <mark>searched query</mark>
+    that we are looking for. Highlighting the text will make it easier for the user to
+    find what they are looking for.</p>
+
+<strong>Bold Text Here</strong>
+
+<b>Bold Text Here</b>
+
+<em>Italicized Text Here</em>
+
+<i>Italicized Text Here</i>
+
+<p>This paragraph contains some <u>mispelled</u> text.</p>
+
+<p>I like to write <abbr title="Hypertext Markup Language">HTML</abbr>!</p>
+
+<!-- To mark text as inserted, use the <ins> tag: -->
+    <ins>New Text</ins>
+<!-- To mark text as deleted, use the <del> tag: -->
+    <del>Deleted Text</del>
+<!-- To strike through text, use the <s> tag: -->
+    <s>Struck-through text here</s>
+
+    <sup>superscript here</sup>
+
+    <sub>subscript here</sub>
+
+    <a href="http://example.com/">Link to example.com</a>
+
+    <a href="http://example.com/" rel="external">example site</a>
+
+    <a href="ftp://example.com/">This could be a link to a FTP site</a>
+
+<h2 id="Topic1">First topic</h2>
+<p>Content about the first topic</p>
+<h2 id="Topic2">Second topic</h2>
+<p>Content about the second topic</p>
+
+<h1>Table of Contents</h1>
+ <a href='#Topic1'>Click to jump to the First Topic</a>
+ <a href='#Topic2'>Click to jump to the Second Topic</a>
+
+ <a href="page1.html#Topic1">look back in the First Topic</a> f
+
+ <a href="/example">Text Here</a>
+
+ <a href="/page">Text Here</a>
+ <a href="http://example.com/page">Text Here</a>
+
+ <a href="tel:11234567890">Call us</a>
+
+ <a href="example.com" target="_blank">Text Here</a>
+
+ <a href="javascript:myFunction();">Run Code</a>
+
+ <a href="#" onclick="myFunction(); return false;">Run Code</a>
+
+ <a href="#!" onclick="myFunction();">Run Code</a>
+
+ <a href="mailto:example@example.com">Send email</a>
+
+ <a href="mailto:example@example.com?cc=john@example.com&bcc=jane@example.com">Send email</a>
+
+ <a href="mailto:example@example.com?subject=Example+subject&body=Message+text">Send email</a>
+
+
+ <ol>
+    <li>Item</li>
+    <li>Another Item</li>
+    <li>Yet Another Item</li>
+   </ol>
+
+   <ol start="3">
+    <li>Item</li>
+    <li>Some Other Item</li>
+    <li>Yet Another Item</li>
+   </ol>
+
+   <li value="7"></li>
+
+
+   <ol start="5">
+    <li>Item</li>
+    <li>Some Other Item</li>
+    <li value="4">A Reset Item</li>
+    <li>Another Item</li>
+    <li>Yet Another Item</li>
+   </ol>
+
+   <ol reversed>
+    <li>Item</li>
+    <li>Some Other Item</li>
+    <li value="4">A Reset Item</li>
+    <li>Another Item</li>
+    <li>Yet Another Item</li>
+   </ol>
+
+<!--    
+   <ol type="1|a|A|i|I"></ol> -->
+
+   <ul>
+    <li>Item</li>
+    <li>Another Item</li>
+    <li>Yet Another Item</li>
+   </ul>
+
+   
+   <ul>
+    <li>item 1</li>
+    <li>item 2
+    <ul>
+    <li>sub-item 2.1</li>
+    <li>sub-item 2.2</li>
+    </ul>
+    </li>
+    <li>item 3</li>
+   </ul>
+
+   
+   <ol>
+    <li>Hello, list!</li>
+    <li>
+    <ul>
+    <li>Hello, nested list!</li>
+    </ul>
+    </li>
+   </ol>
+
+   
+   <dl>
+    <dt>name 1</dt>
+    <dd>value for 1</dd>
+    <dt>name 2</dt>
+    <dd>value for 2</dd>
+   </dl>
+
+   
+   <dl>
+    <dt>name 1</dt>
+    <dt>name 2</dt>
+    <dd>value for 1 and 2</dd>
+    <dt>name 3</dt>
+    <dd>value for 3</dd>
+    <dd>value for 3</dd>
+   </dl>
+
+   <table>
+    <tr>
+    <th>Heading 1/Column 1</th>
+    <th>Heading 2/Column 2</th>
+    </tr>
+    <tr>
+    <td>Row 1 Data Column 1</td>
+    <td>Row 1 Data Column 2</td>
+    </tr>
+    <tr>
+    <td>Row 2 Data Column 1</td>
+    <td>Row 2 Data Column 2</td>
+    </tr>
+   </table>
+
+   <table>
+    <tr>
+    <td>row 1 col 1</td>
+    <td>row 1 col 2</td>
+    <td>row 1 col 3</td>
+    </tr>
+    <tr>
+    <td colspan="3">This second row spans all three columns</td>
+    </tr>
+    <tr>
+    <td rowspan="2">This cell spans two rows</td>
+    <td>row 3 col 2</td>
+    <td>row 3 col 3</td>
+    </tr>
+    <tr>
+    <td>row 4 col 2</td>
+    <td>row 4 col 3</td>
+    </tr>
+   </table>
+
+   <table>
+    <colgroup span="2"></colgroup>
+    <colgroup span="2"></colgroup>
+    ...
+   </table>
+
+   <table>
+    <colgroup>
+    <col id="MySpecialColumn" />
+    <col />
+    </colgroup>
+    <colgroup>
+    <col class="CoolColumn" />
+    <col class="NeatColumn" span="2" />
+    </colgroup>
+    ...
+   </table>
+
+   <table>
+    <caption>Table Title</caption> <!--| caption is the first child of table |-->
+     <thead> <!--======================| thead is after caption |-->
+     <tr>
+     <th>Header content 1</th>
+     <th>Header content 2</th>
+     </tr>
+     </thead>
+     <tbody> <!--======================| tbody is after thead |-->
+     <tr>
+     <td>Body content 1</td>
+     <td>Body content 2</td>
+     </tr>
+     </tbody>
+     <tfoot><!--| tfoot can be placed before or after tbody, but not in a group of tbody. |-->
+    <!--| Regardless where tfoot is in markup, it is rendered at the bottom. |-->
+    
+    
+     <tr>
+     <td>Footer content 1</td>
+     <td>Footer content 2</td>
+ </tr>
+ </tfoot>
+</table>
+
+<table>
+    <thead>
+    <tr>
+    <td></td>
+    <th>Column Heading 1</th>
+    <th>Column Heading 2</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <th>Row Heading 1</th>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <th>Row Heading 2</th>
+    <td></td>
+    <td></td>
+    </tr>
+    </tbody>
+   </table>
+
+   <table>
+    <thead>
+    <tr>
+    <td></td>
+    <th scope="col">Column Heading 1</th>
+    <th scope="col">Column Heading 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Row Heading 1</th>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope="row">Row Heading 1</th>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h1 <!-- testAttribute="something" -->>This will not work</h1>
+
+<!-- Use an HTML comment to nullify the newline character below: -->
+<a href="#">I hope there will be no extra whitespace after this!</a><!--
+--><button>Foo</button>
+
+<a href="#">I hope there will be no extra whitespace after this!</a><!--
+--><button>Foo</button>
+<hr>
+<!-- Without it, you can notice a small formatting difference: -->
+<a href="#">I hope there will be no extra whitespace after this!</a>
+<button>Foo</button>
+
+
+
+
+
+
+ </body>
+</html>
